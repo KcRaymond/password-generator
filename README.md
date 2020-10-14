@@ -1,12 +1,9 @@
-# password-generator
-
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
+Password Generator
 ```
+Assignment details:
+Create an application that an employee can use to generate a random password
+based on criteria they've selected by modifing starter code.
 
-## Acceptance Criteria
-
-```
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
 THEN I am presented with a series of prompts for password criteria
@@ -22,14 +19,10 @@ WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
+
 ```
+The following links to the web application's appearance and functionality:
 
-## Mock-Up
-
-The following link shows the web application's appearance and functionality:
-
-[password generator demo](https://kcraymond.github.io/password-generator/)
-
----
+[Password Generator Demo](https://kcraymond.github.io/password-generator/)
 
 © 2020 KLR Designs
