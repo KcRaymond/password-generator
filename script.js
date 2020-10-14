@@ -20,7 +20,7 @@ function generatePassword() {
   var confirmLength = prompt("How many characters would you like your password to contain? \nChoose from 8 to 128 characters.");
  // Loop if answer is not valid 
 while(confirmLength <= 8 || confirmLength >= 128) {
-  alert("Password length must be between 8-128 characters Try again");
+  alert("Password length must be between 8-128 characters \nTry again...");
   var confirmLength = prompt("How many characters would you like your password to contain?");
   }
 
@@ -44,15 +44,15 @@ if (confirmSpecial) {
   passwordCharacters = passwordCharacters.concat(specialChar)
 }
 
-else if (confirmNumeric) {
+if (confirmNumeric) {
   passwordCharacters = passwordCharacters.concat(numbers)
 }
   
-else if (confirmLowerCase) {
+if (confirmLowerCase) {
   passwordCharacters = passwordCharacters.concat(lowercaseLetters)
 }
 
-else if (confirmUpperCase) {
+if (confirmUpperCase) {
   passwordCharacters = passwordCharacters.concat(uppercaseLetters)
 }
 
